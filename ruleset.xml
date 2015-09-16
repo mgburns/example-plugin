@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Example Plugin">
+	<description>PHP Code Sniffer rules for the example plugin</description>
+
+	<file>./</file>
+	<exclude-pattern>./vendor/*</exclude-pattern>
+
+	<rule ref="WordPress-Extra"></rule>
+</ruleset>
